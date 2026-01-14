@@ -3,4 +3,4 @@
 > 智能合约安全与攻击复盘
 
 [开始阅读](README.md)
-[GitHub](https://github.com/xxxmingyue/blockchain-security-notes)
+[GitHub](https://github.com/xxxmingyue/)
