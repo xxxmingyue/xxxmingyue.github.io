@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>xxxmingyue的个人博客</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/shield-lock.svg">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">加载中...</div>
+  
+  <script>
+    window.$docsify = {
+      name: '🛡️ 区块链安全笔记', // 侧边栏顶部的标题
+      repo: 'https://github.com/xxxmingyue/blockchain-security-notes', // 右上角的小挂件
+      
+      // --- 核心导航配置 ---
+      loadSidebar: true,    // 开启侧边栏，需要创建 _sidebar.md
+      subMaxLevel: 3,       // 侧边栏显示的目录层级（建议设置 2-3）
+      loadNavbar: false,    // 是否开启顶部导航，简单项目通常不需要
+      coverpage: true,      // 开启封面页，需要创建 _coverpage.md
+      auto2top: true,       // 切换页面后自动跳转到顶部
+
+      // --- 搜索插件配置 ---
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索漏洞知识...',
+        noData: '😒 找不到相关笔记',
+        depth: 6,
+      },
+
+      // --- 字数统计插件 ---
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      }
+    }
+  </script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-solidity.min.js"></script>
+
+</body>
+</html>
