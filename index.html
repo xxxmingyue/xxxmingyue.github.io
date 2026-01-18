@@ -8,13 +8,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/shield-lock.svg">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .markdown-section{font-size:16px;line-height:1.8}
+    .markdown-section p,.markdown-section li{font-size:inherit}
+    .markdown-section img{display:block;margin:12px auto;max-width:100%;height:auto}
+    .markdown-section img.icon{display:inline-block;margin:0}
+    .markdown-section .contact-list{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0}
+    .markdown-section .contact-list a{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border:1px solid #e5e7eb;border-radius:8px;color:inherit;text-decoration:none}
+    .markdown-section .contact-list a:hover{background:#f7f7f7}
+    .markdown-section .icon{width:18px;height:18px;vertical-align:middle}
+  </style>
 </head>
 <body>
   <div id="app">加载中...</div>
   
   <script>
     window.$docsify = {
-      name: '🛡️ 区块链安全笔记', // 侧边栏顶部的标题
+      name: '🛡️Moon的Web3笔记', // 侧边栏顶部的标题
       repo: 'https://github.com/xxxmingyue/', // 右上角的小挂件
       
       // --- 核心导航配置 ---
@@ -27,7 +37,7 @@
       // --- 搜索插件配置 ---
       search: {
         paths: 'auto',
-        placeholder: '🔍 搜索漏洞知识...',
+        placeholder: '🔍 搜索相关知识...',
         noData: '😒 找不到相关笔记',
         depth: 6,
       },
