@@ -14,6 +14,7 @@
   * [第1周学习笔记](notes/EthPanda实习计划/第一周学习记录.md)
   * [23日会议纪要：Speedrun Ethereum 区块链开发工作坊](notes/EthPanda实习计划/23日会议纪要：Speedrun%20Ethereum%20区块链开发工作坊.md)
   * [第2周学习记录](notes/EthPanda实习计划/第二周学习记录.md)
+  * [第3周学习记录](notes/EthPanda实习计划/第三周学习记录.md)
   
 * 杂项
   * [Web3招聘平台分析](notes/Misc/Web3招聘平台分析.md)
